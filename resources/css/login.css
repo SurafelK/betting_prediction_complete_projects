@@ -1,0 +1,75 @@
+body {
+    /* Blue gradient background */
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    /* Center the login form */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-form {
+    /* White background */
+    background-color: white;
+    /* Rounded corners */
+    border-radius: 10px;
+    /* Padding and margin */
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .login-form input {
+    /* Full width */
+    width: 100%;
+    /* Margin between inputs */
+    margin-bottom: 10px;
+  }
+  
+  .login-form button {
+    /* Full width */
+    width: 100%;
+  }
+  
+  /* Add some illustrations with goat */
+  .goat {
+    /* Position relative to the login form */
+    position: absolute;
+    /* Adjust the size and location */
+    width: 100px;
+    height: auto;
+  }
+  
+  .goat-left {
+    left: -50px;
+  }
+  
+  .goat-right {
+    right: -50px;
+  }
+  
+  /* Make the goat text center */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Add the signup button and a button color for both login and signup page */
+  .login-form a {
+    /* Display as a block element */
+    display: block;
+    /* Align to the right */
+    text-align: right;
+  }
+  
+  .login-form button, .login-form a {
+    /* Add some padding */
+    padding: 10px;
+  }
+  
+  /* Button color for login page */
+  .login-form button {
+    background-color: #74ebd5;
+  }
+  
+  /* Button color for signup page */
+  .login-form a {
+    background-color: #acb6e5;
+  }
